@@ -18,6 +18,7 @@ GEM
       mini_portile (~> 0.6.0)
     puma (2.14.0)
     rack (1.2.2)
+    rake (10.4.2)
     sinatra (1.2.6)
       rack (~> 1.1)
       tilt (>= 1.2.2, < 2.0)
@@ -31,6 +32,7 @@ DEPENDENCIES
   httparty
   nokogiri
   puma
+  rake
   sinatra
 
 BUNDLED WITH

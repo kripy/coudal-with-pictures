@@ -2,8 +2,8 @@ require "sinatra/base"
 require "nokogiri"
 require "httparty"
 require "aws-sdk"
-require "RSS"
-require "URI"
+require "rss"
+require "uri"
 
 class App < Sinatra::Base
   configure do
