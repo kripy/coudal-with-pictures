@@ -68,7 +68,7 @@ class App < Sinatra::Base
       maker.channel.author = "Kripy"
       maker.channel.updated = Time.now.to_s
       maker.channel.about = "http://kcdn.kripy.com/coudal/index.xml"
-      maker.channel.title = "Coudal With Pictures"
+      maker.channel.title = "CP: Fresh Signals (With Pictures)"
 
       @links.map do |i|
         maker.items.new_item do |item|
